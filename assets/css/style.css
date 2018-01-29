@@ -13,6 +13,7 @@ header{
 	margin-bottom: 24px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
+	position: static;
 	
 }
 
@@ -119,14 +120,13 @@ footer{
 }
 
 .connect{ 
-	float: right;
 	width: 270px;
 	background-color: white;
 	text-align: center
 
 }
 
-.section {
+.section{
 	float: left;
 	width: 650px;
 	background-color: white;
@@ -135,3 +135,32 @@ footer{
 	
 
 }
+
+@media (max-width: 640px), screen and (orientation: portrait) {
+  body {
+    background-color: white;
+  }
+
+ 
+}
+
+@media (max-width: 640px), screen and (orientation: portrait) {
+  body {
+    background-color: white;
+  }
+
+  .
+
+  
+
+}
+
+@media (max-width: 640px), screen and (orientation: portrait)   {
+  body {
+    background-color: white;
+  }
+
+
+
+}
+
