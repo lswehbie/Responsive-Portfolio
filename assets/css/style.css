@@ -122,10 +122,8 @@ footer{
 .connect{ 
 	width: 270px;
 	background-color: white;
-	text-align: center
-	bottom: 10;
-	position: static;
-	;
+	text-align: center;
+	
 
 }
 
@@ -141,9 +139,34 @@ footer{
 
 @media screen and (max-width: 980px) {
 
+	.container {
+		width: 750px;	
+	}
+
+	header {
+		min-width: 100%;
+	}
+
+	.connect {
+		width: 300px;
+	}
+
+	.profilepic {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.section {
+		width: 423px;
+	}
+
+
 }
 
 @media screen and (max-width: 768px) {
+
+
  
 }
 
